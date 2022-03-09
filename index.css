@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+  }
+ 
+  .blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: url(#gradient-horizontal);
+    width: 50vmax;
+    z-index: -1;
+    animation: move 10s;
+    transform-origin: 50% 50%;
+  }
+  #gradient-horizontal {
+    --color-stop-1: rgb(0, 183, 255);
+    --color-stop-2: rgb(111, 0, 255);
+    --color-stop-3: rgb(234, 0, 255);
+    --color-stop-4: rgb(255, 0, 43);
+    --color-stop-5: rgb(255, 115, 0);
+    --color-stop-6: rgb(255, 208, 0);
+    
+  }
+  .centerDiv {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+
+#about {
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    height: 700px;
+    position: relative;
+    
+    padding: 300px 0;
+}
+
+#experience {
+    height: 400px;
+    font-family: 'Montserrat', sans-serif;
+    background-size: auto;
+    padding: 200px 0;
+    color : white;
+  }
